@@ -75,6 +75,7 @@ while True:
                                 userchoicenumber = int(userchoice)
                                 videonamestr = video_ids[userchoicenumber - 1]
                                 os.system("youtube-dl -x -i --audio-format mp3 --audio-quality 0 https://www.youtube.com/watch?v=" + videonamestr)
+                                print("\n")
                                 break
                         elif userchoice == "q":
                                 break
@@ -109,7 +110,7 @@ while True:
 
                                                 with open('queue', 'a') as queue:
                                                         queue.write(str(titleg) + "--" + videonamestr + "\n")
-
+                                                print("\n")
                                                 break
                                         else: 
                                                 print("Try an appropriate option next time or type 'q' to quit")

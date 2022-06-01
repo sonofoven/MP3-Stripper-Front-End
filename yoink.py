@@ -76,7 +76,6 @@ while True:
                                 videonamestr = video_ids[userchoicenumber - 1]
                                 os.system("youtube-dl -x -i --audio-format mp3 --audio-quality 0 https://www.youtube.com/watch?v=" + videonamestr)
                                 print("\n")
-                                quit()
                                 break
                         elif userchoice == "q":
                                 break
@@ -141,7 +140,6 @@ while True:
                                                         eltit,bideoid = data.split('--')
                                                         os.system("youtube-dl -x -i --audio-format mp3 --audio-quality 0 " + bideoid)
                                                 queue.truncate(0)
-                                        quit()
                                         break
 
                                 elif firstqchoice == "q":

@@ -54,7 +54,7 @@ def grabtitle(videoidt): #grabs title with provided video id
         snippet=all_data[0]['snippet']
         titleg=snippet['title']
 
-api_key="AIzaSyDbPe8JgP5vav4llRz7-4r1eWMZhc3w1Ro"
+api_key="YOUR API KEY HERE"
 print("\n")
 print('Welcome to the MP3 stripper! \n')
 

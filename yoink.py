@@ -132,7 +132,7 @@ while True:
                                 elif firstqchoice == 'd':
                                         print("\n")
                                         
-                                        with open('queue', 'a+') as queue:
+                                        with open('queue', 'r+') as queue:
                                                 line_num = 0
                                                 for line in queue.readlines():
                                                         line_num += 1
